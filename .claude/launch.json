@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "after-note",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": [
+        "-c",
+        "php artisan serve --port=${PORT:-8000}"
+      ],
+      "port": 8000
+    }
+  ]
+}
